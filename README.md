@@ -1,1 +1,2 @@
-https://www.django-rest-framework.org/topics/html-and-forms/
+- https://www.django-rest-framework.org/topics/html-and-forms/
+- https://medium.com/swlh/django-angular-4-a-powerful-web-application-60b6fb39ef34

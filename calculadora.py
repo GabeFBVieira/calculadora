@@ -1,20 +1,21 @@
 def soma(num1,num2):
     return num1 + num2
 
-def subtração(num1,num2):
+def subtracao(num1,num2):
     return num1 - num2
 
-def multiplicação(num1,num2):
+def multiplicacao(num1,num2):
     return num1 * num2
 
-def divisão(num1,num2):
+def divisao(num1,num2):
     return num1 / num2
 
-def potenciação(num1,num2):
+def potenciacao(num1,num2):
         
     return num1 ** num2
 
-if __name__ == "__main__":
+if __name__ == '__main__':
+  
     while True: 
             
         print('-----------------------')
@@ -53,13 +54,13 @@ if __name__ == "__main__":
         if escolha == '1':
             print(soma(num1_float,num2_float))
         elif escolha == '2':
-            print(subtração(num1_float,num2_float))
+            print(subtracao(num1_float,num2_float))
         elif escolha == '3':
-            print(multiplicação(num1_float,num2_float))
+            print(multiplicacao(num1_float,num2_float))
         elif escolha == '4':
-            print(divisão(num1_float,num2_float))
+            print(divisao(num1_float,num2_float))
         elif escolha == '5':
-            print(potenciação(num1_float,num2_float)) 
+            print(potenciacao(num1_float,num2_float)) 
         
         
         sair= (input('Deseja sair? [s]im ou [n]ão ').lower().startswith('s'))

@@ -1,8 +1,8 @@
-#Calculadora Básica
+# Calculadora Básica
 
 Olá, bem vindo! Esta é a calculadora básica de 5 operações
 
-###Ela contém:
+### Ela contém:
 
 * Soma
 * Subtração

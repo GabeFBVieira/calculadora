@@ -20,17 +20,12 @@ if __name__ == '__main__':
             
         print('-----------------------')
         print('      Calculadora       ')
-        print('1. Soma')
-        print('2. Subtração')
-        print('3. Multiplicação')
-        print('4. Divisão')
-        print('5. Potenciação')
-        print('6. Sair')
+        print('1.Soma\n 2.Subtração\n 3.Multiplicação\n 4.Divisão\n 5.Potenciação\n 6.Sair')
         print('----------------------')
         
-        num1 = int(input('Digite um Numero: '))
-        num2 = int(input('Digite um Numero: '))
-        escolha = input('Qual operação deseja executar? Escolha um numero de 1 a 5  ')
+        num1 = int(input('Digite um Número: '))
+        num2 = int(input('Digite um Número: '))
+        escolha = input('Qual operação deseja executar? Escolha um número de 1 a 5  ')
         
         numeros_validos = None
         
@@ -42,7 +37,7 @@ if __name__ == '__main__':
             numeros_validos = None
         
         if numeros_validos is None:
-            print('Um ou ambos os numeros digitados são invalidos')
+            print('Um ou ambos os números digitados são invalidos')
             continue
         
         operadores_permitidos = '12345'

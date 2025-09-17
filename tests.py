@@ -1,7 +1,7 @@
 import unittest
 
 from calculadora import soma,subtracao,divisao,multiplicacao,potenciacao
-from calculadora import menu, escolha
+
 
 class TestCalculadora(unittest.TestCase):
     def test_soma(self):
